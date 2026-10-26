@@ -1,0 +1,8 @@
+de/th_bingen/distsystems/microservices/datastorage/ports/in/InPort.class
+de/th_bingen/distsystems/microservices/datastorage/ports/out/OutPort.class
+de/th_bingen/distsystems/microservices/datastorage/adapters/out/MyOutAdapter.class
+de/th_bingen/distsystems/microservices/datastorage/services/MyService.class
+de/th_bingen/distsystems/microservices/datastorage/SwaggerConfig.class
+de/th_bingen/distsystems/microservices/datastorage/DatastorageApplication.class
+de/th_bingen/distsystems/microservices/datastorage/services/User.class
+de/th_bingen/distsystems/microservices/datastorage/adapters/in/MyInAdapter.class

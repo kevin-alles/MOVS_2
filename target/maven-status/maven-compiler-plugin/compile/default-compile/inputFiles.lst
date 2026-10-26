@@ -1,0 +1,8 @@
+/home/kevin/IdeaProjects/MOVS_2/src/main/java/de/th_bingen/distsystems/microservices/datastorage/DatastorageApplication.java
+/home/kevin/IdeaProjects/MOVS_2/src/main/java/de/th_bingen/distsystems/microservices/datastorage/SwaggerConfig.java
+/home/kevin/IdeaProjects/MOVS_2/src/main/java/de/th_bingen/distsystems/microservices/datastorage/adapters/in/MyInAdapter.java
+/home/kevin/IdeaProjects/MOVS_2/src/main/java/de/th_bingen/distsystems/microservices/datastorage/adapters/out/MyOutAdapter.java
+/home/kevin/IdeaProjects/MOVS_2/src/main/java/de/th_bingen/distsystems/microservices/datastorage/ports/in/InPort.java
+/home/kevin/IdeaProjects/MOVS_2/src/main/java/de/th_bingen/distsystems/microservices/datastorage/ports/out/OutPort.java
+/home/kevin/IdeaProjects/MOVS_2/src/main/java/de/th_bingen/distsystems/microservices/datastorage/services/MyService.java
+/home/kevin/IdeaProjects/MOVS_2/src/main/java/de/th_bingen/distsystems/microservices/datastorage/services/User.java

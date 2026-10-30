@@ -9,6 +9,7 @@ import java.net.URI;
 import java.util.UUID;
 
 @RestController
+@RequestMapping("/users")
 public class UserInAdapter{
 
     final InUserPort inUserPort;
@@ -18,7 +19,7 @@ public class UserInAdapter{
         this.inUserPort = inUserPort;
     }
 
-    @GetMapping("/users/{uuid}")
+    @GetMapping("/{uuid}")
     ResponseEntity<Object> getUser(@PathVariable UUID uuid){
         UserDTO result = inUserPort.getUser(uuid);
         if (result != null){
@@ -27,7 +28,7 @@ public class UserInAdapter{
         return ResponseEntity.notFound().build();
     }
 
-    @PostMapping("/users")
+    @PostMapping("")
     ResponseEntity<Object> putUser(@RequestBody UserDTO userDTO){
         UUID uuid = inUserPort.postUser(userDTO.firstName(), userDTO.lastName());
         if (uuid != null){
@@ -36,7 +37,7 @@ public class UserInAdapter{
         return ResponseEntity.badRequest().build();
     }
 
-    @DeleteMapping("/users/{uuid}")
+    @DeleteMapping("/{uuid}")
     ResponseEntity<Object> deleteUser(@PathVariable UUID uuid){
         boolean result = inUserPort.deleteUser(uuid);
         if (result){
